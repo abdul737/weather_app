@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279a4b01-31bd-41fd-b715-0e53d68d1430" name="Default Changelist" comment="First Commit&#10;&#10;Copyright (c) 2019, Abdulbosid Khamidov.&#10;MIT License (Fully Open Source)">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/MIT_License.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Abdulbosid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherDaily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherDay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherDay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherHour.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherHourly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layouts/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Page404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weather_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/MyComponent.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/WeatherHourly.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherHourly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherHourly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,20 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/WeatherHour.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="254">
+              <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -79,6 +49,9 @@
       <find>route</find>
       <find>enzyme</find>
       <find>jest</find>
+      <find>rui</find>
+      <find>uri</find>
+      <find>URL</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Abdulbosid\WebstormProjects\weather_app\node_modules</dir>
@@ -99,9 +72,6 @@
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/components/pages/WeatherDaily.js" />
         <option value="$PROJECT_DIR$/src/components/pages/WeatherHourly.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/WeatherHourly.js" />
-        <option value="$PROJECT_DIR$/src/components/WeatherHour.js" />
         <option value="$PROJECT_DIR$/src/components/WeatherDay.js" />
         <option value="$PROJECT_DIR$/src/components/WeatherDay.css" />
         <option value="$PROJECT_DIR$/src/components/pages/About.js" />
@@ -110,9 +80,18 @@
         <option value="$PROJECT_DIR$/src/components/layouts/Header.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/MyComponent.js" />
+        <option value="$PROJECT_DIR$/MyComponent.test.js" />
+        <option value="$PROJECT_DIR$/src/components/MyComponent.js" />
+        <option value="$PROJECT_DIR$/src/tests/MyComponent.test.js" />
+        <option value="$PROJECT_DIR$/src/components/WeatherHourly.js" />
+        <option value="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/WeatherHourly.js" />
+        <option value="$PROJECT_DIR$/src/components/WeatherHour.js" />
+        <option value="$PROJECT_DIR$/src/tests/WeatherHourly.test.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -148,12 +127,19 @@
             <path>
               <item name="weather_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather_app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weather_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,13 +169,14 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\tests" />
+      <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components" />
+      <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components\pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components\pages" />
       <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components\layouts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components" />
-      <recent name="C:\Users\Abdulbosid\WebstormProjects\weather_app\src\components\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,31 +191,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="WeatherDaily Component Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.WeatherHourly Component Test.renders correctly (1)">
+    <configuration name="WeatherDaily Component Test.tests if table is displayed correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" />
+      <test-names>
+        <test-name value="WeatherDaily Component Test" />
+        <test-name value="tests if table is displayed correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherHourly Component Test (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/tests/WeatherDaily.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/WeatherHourly.test.js" />
       <test-names>
-        <test-name value="WeatherDaily Component Test" />
+        <test-name value="WeatherHourly Component Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherHourly Component Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/WeatherHourly.js" />
+      <test-names>
+        <test-name value="WeatherHourly Component Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherHourly Component Test.renders correctly (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/WeatherHourly.test.js" />
+      <test-names>
+        <test-name value="WeatherHourly Component Test" />
+        <test-name value="renders correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherHourly Component Test.renders correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/WeatherHourly.js" />
+      <test-names>
+        <test-name value="WeatherHourly Component Test" />
+        <test-name value="renders correctly" />
       </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -241,21 +273,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="Jest.WeatherDaily Component Test" />
+        <item itemvalue="Jest.WeatherHourly Component Test.renders correctly (1)" />
+        <item itemvalue="Jest.WeatherHourly Component Test (1)" />
+        <item itemvalue="Jest.WeatherHourly Component Test" />
+        <item itemvalue="Jest.WeatherHourly Component Test.renders correctly" />
+        <item itemvalue="Jest.WeatherDaily Component Test.tests if table is displayed correctly" />
       </list>
     </recent_temporary>
   </component>
@@ -277,32 +301,52 @@
       <workItem from="1558896851229" duration="5539000" />
       <workItem from="1558906071371" duration="65000" />
       <workItem from="1558906182705" duration="21000" />
-      <workItem from="1558939895517" duration="445000" />
+      <workItem from="1558939895517" duration="7242000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit&#10;&#10;Copyright (c) 2019, Abdulbosid Khamidov.&#10;MIT License (Fully Open Source)">
+      <created>1558940390700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558940390700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 02h 16m 22s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 14h 58m 30s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 02h 16m 43s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 14h 58m 49s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 02h 17m 24s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 14h 59m 02s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 02h 20m 08s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 14h 59m 14s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 02h 29m 54s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 14h 59m 35s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherDaily_Component_Test - 2019.05.26 at 14h 50m 05s.xml">
-      <configuration name="WeatherDaily Component Test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 15h 00m 04s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 15h 00m 20s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 15h 00m 31s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 15h 00m 42s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="WeatherHourly_Component_Test_renders_correctly_(1) - 2019.05.27 at 15h 04m 23s.xml">
+      <configuration name="WeatherHourly Component Test.renders correctly (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57711000" />
+    <option name="totallyTimeSpent" value="64508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,20 +361,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48101267" visible="true" weight="0.14880952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48101267" visible="true" weight="0.14880952" />
       <window_info id="Structure" order="1" sideWeight="0.50510204" side_tool="true" weight="0.14955357" />
       <window_info id="npm" order="2" sideWeight="0.51898736" side_tool="true" weight="0.14880952" />
       <window_info id="Favorites" order="3" sideWeight="0.502551" side_tool="true" weight="0.14955357" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Messages" weight="0.32991454" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" auto_hide="true" x="1002" y="31" width="363" height="696" id="Run" order="2" type="WINDOWED" weight="0.32991454" />
+      <window_info anchor="bottom" auto_hide="true" x="290" y="471" width="363" height="696" id="Run" order="2" weight="0.5538462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32820514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32478634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,6 +385,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit&#10;&#10;Copyright (c) 2019, Abdulbosid Khamidov.&#10;MIT License (Fully Open Source)" />
     <option name="LAST_COMMIT_MESSAGE" value="First Commit&#10;&#10;Copyright (c) 2019, Abdulbosid Khamidov.&#10;MIT License (Fully Open Source)" />
@@ -349,16 +419,6 @@
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js" />
     <entry file="file://$PROJECT_DIR$/src/components/weather_day" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherHourly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/WeatherDay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -374,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherDaily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -429,10 +482,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/WeatherDaily.test.js">
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherDaily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,41 +533,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherHour.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="94">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherHourly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="84" column="12" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/WeatherHourly.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#86#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/WeatherDaily.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/MyComponent.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#86#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherHour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="254">
+          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
         </state>
       </provider>
     </entry>

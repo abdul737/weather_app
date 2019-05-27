@@ -15,6 +15,10 @@ import Page404 from "./components/pages/Page404";
 
 class App extends React.Component{
     state = {
+        // Get weather data in JSON for the city Tashkent, UZ (id: 1512569) with the API call
+        // 5 day - 3 hourly weather forecast
+        // API server data is updated every 3 hours
+        apiUrl: 'https://api.openweathermap.org/data/2.5/forecast?id=1512569&units=metric&appid=479e2073bec71a262fcce951f4c4debf',
         // all the list weather data to be stored in array weatherData
         weatherData: [],
         // array key is the day of the month
@@ -25,10 +29,8 @@ class App extends React.Component{
 
     // When App is mounted all weather data is downloaded once
     componentDidMount() {
-        // Get weather data in JSON for the city Tashkent, UZ (id: 1512569) with the API call
-        // 5 day - 3 hourly weather forecast
-        // API server data is updated every 3 hours
-        axios.get('https://api.openweathermap.org/data/2.5/forecast?id=1512569&units=metric&appid=479e2073bec71a262fcce951f4c4debf')
+        // get data from apiUrl with axios.get
+        axios.get(this.state.apiUrl)
             .then((res) => {
                 // get weather data list
                 this.setState({weatherData: res.data.list});
@@ -77,6 +79,7 @@ class App extends React.Component{
                 <div className="App">
                     <Header />
                     <Switch>
+                        {/* Main path */}
                         <Route exact path={"/"} render={(props) => (
                             <React.Fragment>
                                 <WeatherDaily weatherDaily={this.state.weatherDaily}/>
@@ -86,7 +89,9 @@ class App extends React.Component{
                         <Route path={"/hourly/:dt_txt"} render={(props) => (
                             <WeatherHourly {...props} weatherData={this.state.weatherData} />
                         )} />
+                        {/* Page with some description of the app */}
                         <Route path="/about" component={About}/>
+                        {/* Error 404 page */}
                         <Route component={Page404} />
                     </Switch>
                 </div>

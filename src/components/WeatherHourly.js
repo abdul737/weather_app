@@ -7,14 +7,14 @@ class WeatherHourly extends React.Component {
     state = {
         // hourly forecast data to be generated from the API
         weatherHourly: [],
-        // target date to be extracted from the URI param
+        // target date to be extracted from the URL param
         targetDate: new Date()
     };
     // when component loaded get the passed day and get 3 hourly from the all API data
     componentDidMount() {
         // a temporary array to be assigned to the state variable at the end
         let weatherHourly = [];
-        // UTC format date is passed as URI param match
+        // UTC format date is passed as URL param match
         const targetDate = new Date(this.props.match.params.dt_txt + " UTC");
         // map each forecast data from the API weatherData
         this.props.weatherData.map((weatherData) => {
