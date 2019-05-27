@@ -21,7 +21,7 @@ class App extends React.Component{
         apiUrl: 'https://api.openweathermap.org/data/2.5/forecast?id=1512569&units=metric&appid=479e2073bec71a262fcce951f4c4debf',
         // all the list weather data to be stored in array weatherData
         weatherData: [],
-        // array key is the day of the month
+        // array key is the day of the week
         weatherDaily: [],
         // week day names
         weekDays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
@@ -40,19 +40,19 @@ class App extends React.Component{
                 res.data.list.map((weatherData) => {
                     // (date text) converted from UTC to local Date format
                     const date = new Date(weatherData.dt_txt + " UTC");
-                    // array key is the day of the month to be sorted further
-                    if (weatherDaily[date.getDate()]){
+                    // array key is the day of the week to be sorted by date further
+                    if (weatherDaily[date.getDay()]){
                         // detect from hourly data day or night time temperature
                         if (date.getHours() < 17){
                             // for day time temperature
-                            weatherDaily[date.getDate()].tempDay = weatherData.main.temp;
+                            weatherDaily[date.getDay()].tempDay = weatherData.main.temp;
                         }else{
                             // for night time temperature
-                            weatherDaily[date.getDate()].tempNight = weatherData.main.temp;
+                            weatherDaily[date.getDay()].tempNight = weatherData.main.temp;
                         }
                     }else{
                         // weather data is assigned by the day of the month
-                        weatherDaily[date.getDate()] = {
+                        weatherDaily[date.getDay()] = {
                             dt_txt: weatherData.dt_txt,
                             // week day name
                             day: this.state.weekDays[date.getDay()],
@@ -65,6 +65,13 @@ class App extends React.Component{
                     }
                     // nothing to return here, render
                     return ("");
+                });
+                // sort all elements of weatherDaily by date to display in proper sequence
+                weatherDaily.sort((a, b) => {
+                    // custom sorting comparator functions for weatherDaily
+                    const c = new Date(a.dt_txt);
+                    const d = new Date(b.dt_txt);
+                    return c-d;
                 });
                 // setState weatherDaily to temporary array weatherDaily
                 this.setState({weatherDaily});
